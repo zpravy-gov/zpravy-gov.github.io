@@ -1,5 +1,5 @@
-# zpravy-gov.github.io
+#about
 
-# Build up by Federation of Conewiwa and New Hanchih
+Build up by Federation of Conewiwa and New Hanchih
 
-# https://www.cornueva-hanji.uk/
+https://www.cornueva-hanji.uk/
