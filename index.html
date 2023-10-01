@@ -1,51 +1,187 @@
 <!DOCTYPE html>
 <html class="category-home">
-	<head>
-	<meta charset="utf-8"> 
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+<html lang="en">
+    <head>
+    <meta charset="utf-8"> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZPRAVY 紐新聯邦線上政務系統</title>
+    <!-- 引入 Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap/dist/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap/dist/js/bootstrap.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css'>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css'>
+    <link href='//netdna.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css' rel='stylesheet'/>
+    <style>
+        .menu-item {
+            border: none;
+            padding: 10px;
+            text-align: left;
+            background-color: #f8f9fa;
+            transition: background-color 0.3s ease;
+        }
 
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        .menu-item:hover {
+            background-color: #e9ecef;
+        }
+        .footer {
+            background-color: #0b0c0c;
+            color: #fff;
+            padding: 30px 0;
+            text-align: center;
+            margin-top: 20px; /* 調整頁尾與內容之間的空白 */
+        }
+        .footer a {
+            color: #4a90e2;
+            text-decoration: none;
+        }
+        .footer a:hover {
+            text-decoration: underline;
+        }
+        body { padding-top: 70px; }
+}
+     </style>
+</head>
+<body>
 
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<!-- 導航欄 -->
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html"><img src="https://static.miraheze.org/zhmicronationswiki/7/7e/%E7%B4%90%E6%96%B0%E8%81%AF%E9%82%A6%E5%9C%8B%E5%BE%BD.png" width="50" height="55" class="img-fluid"><strong>&nbsp ZPRAVY 紐新聯邦線上政務</strong></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="mynavbar">
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="javascript:void(0)">Link</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="javascript:void(0)">Link</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="javascript:void(0)">Link</a>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="text" placeholder="Search">
+        <button class="btn btn-primary" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
 
-	<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css'>
+<!-- 政府服務與線上資訊 -->
+<div class="container mt-5">
+        <div class="row">
+            <div class="col-md-4">
+                <h3><b>政府服務與線上資訊</b></h3>
+                <p><b>Služby a Informace<br>Shërbimet dhe Informacioni</b></p>
+            </div>
+        </div>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="menu-item">
+                <h4><strong>出生、死亡、結婚及照護<br></h4><p><small>Narození, úmrtí, sňatky a péče<br>Lindjet, vdekjet, martesat dhe kujdesi</small></strong></p>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="menu-item">
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSd2UOSKH9NKdojmAY59dtAzl7MXMsYgAqJwt8qPSfDSBoy0Qg/viewform" style="color:black;text-decoration:none;">
+                <h4><strong>外交事務<br></h4><p><small>Zahraniční věci<br>Çështjet e Jashtme</small></strong></p>
+		</a>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="menu-item">
+                <h4><strong>護照與國外旅行<br></h4><p><small>Cestovní pasy a zahraniční cesty<br>Çështjet e Jashtme</small></strong></p>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="menu-item">
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSd2UOSKH9NKdojmAY59dtAzl7MXMsYgAqJwt8qPSfDSBoy0Qg/viewform" style="color:black;text-decoration:none;">
+                <h4><strong>公民身份與戶政事務<br></h4><p><small>Občanství<br>Shtetësia</small></strong></p>
+		</a>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="menu-item">
+                <a href="https://law-database.cornueva-hanji.uk/" style="color:black;text-decoration:none;">
+                <h4><strong>法律與法律問題<br></h4><p><small>Právo a právní otázky<br>Ligji dhe çështjet ligjore</small></strong></p>
+		</a>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="menu-item">
+                <h4><strong>社會團體與政黨<br></h4><p><small>Společenské organizace a politické strany<br>Organizatat shoqërore dhe partitë politike</small></strong></p>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="menu-item">
+                <h4><strong>財務與財務關係<br></h4><p><small>Finance a finanční vztahy<br>Financat dhe marrëdhëniet financiare</small></strong></p>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="menu-item">
+                <h4><strong>教育與學習<br></h4><p><small>Vzdělání a učení<br>Arsim dhe mësim</small></strong></p>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="menu-item">
+                <h4><strong>其他未分類事務<br></h4><p><small>Ostatní záležitosti<br>Çështje të tjera</small></strong></p>
+            </div>
+        </div>
+    </div>
+</div>
 
-	<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css'>
+<div>
+&nbsp
+</div>
 
- <link href='//netdna.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css' rel='stylesheet'/>
-					
-	<title>Zpravy - 在線紐新</title>
-	</head>
-	<body>
-
-		<nav class="navbar navbar-expand-lg navbar-light bg-light">
-		<div class="container">
-			<a class="navbar-brand" href="index.html" <b>.ZPRAVY </b></a>
-		</div>
-	</nav>
-	
-	<center>
-	<!---- headline --->
-	<h3>以下服務透過 Google 表單進行</h3>
-
-	<!---- mofa card ---->
-	<div class="card w-50">
-  		<div class="card-body">
-    		<h5 class="card-title">辦理外交業務</h5>
-    		<span class="badge text-bg-info">外交事務</span>
-    		<p class="card-text">本表單由外交事務與國際發展部提供，主要受理欲與我國締結邦交關係之申請及設立駐我機構之申請業務。</p>
-    		<a href="https://docs.google.com/forms/d/e/1FAIpQLSd2UOSKH9NKdojmAY59dtAzl7MXMsYgAqJwt8qPSfDSBoy0Qg/viewform" class="btn btn-primary">立即申辦</a>
-		</div>
-	</div>
-	</center>
-
-
-<footer class="text-center text-white fixed-bottom" style="background-color: #000000;">
-  <!-- Copyright -->
-  <div class="text-left p-3" style="background-color: rgba(0, 0, 0, 0.2);"><img src="https://github.com/1e78c67e-8630-4858-9d96-644e9d217cf9.jpeg" width="50" height="55"> <br>
- 	zpravy.uk<br>Copyright © 2023 科紐瓦與新韓志聯邦政府. 保留一切權力。</div>
-  <!-- Copyright -->
+<!-- 頁尾 -->
+<footer class="text-center text-white" style="background-color: #000000;">
+  <div align="left">
+    <div class="container py-4">
+        <div class="row">
+            <div class="col-md-4">
+	    	<img src="https://static.miraheze.org/zhmicronationswiki/7/7e/%E7%B4%90%E6%96%B0%E8%81%AF%E9%82%A6%E5%9C%8B%E5%BE%BD.png" width="50" height="55" class="img-fluid">
+            	<h4><strong>zpravy.uk 紐新聯邦線上政務</strong></h4>
+            	<p><strong><small>Online služby<br>Shërbime online</small></strong></p>
+	    </div>
+            <div class="col-md-4">
+                <h4><strong>關於科紐瓦與新韓志聯邦</strong></h4>
+                <p><strong>參訪下列頁面已獲得與我國政府有關的消息。</strong></p>
+                <ul class="list-unstyled">
+                    <li><a href="https://www.cornueva-hanji.uk/" style="color:white;text-decoration:none;"><strong>官方網站</strong></a></li>
+                    <li><a href="https://law-database.cornueva-hanji.uk/" style="color:white;text-decoration:none;"><strong>法規資料庫</strong></a></li>
+                    <li><a href="https://www.facebook.com/New.HanChih/" style="color:white;text-decoration:none;"><strong>Facebook頁面</strong></a></li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <h4><strong>關於ZPRAVY</strong></h4>
+                <p><strong>關注我們的社交媒體以獲取最新消息和更新。</strong></p>
+                <ul class="list-unstyled">
+                    <li><a href="https://www.zpravy.uk/" style="color:white;text-decoration:none;"><strong>官方網站</strong></a></li>
+                    <li><a href="https://www.facebook.com/zpravy.gov" style="color:white;text-decoration:none;"><strong>Facebook頁面</strong></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+  </div>
+    <div class="text-center py-3">
+        &copy; 2023 科紐瓦與新韓志聯邦政府. 保留一切權力。
+    </div>
+<!-- Copyright -->
 </footer>
 
-	</body>
+</body>
 </html>
+
